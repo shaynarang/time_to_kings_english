@@ -22,7 +22,7 @@ This Ruby Command Line Application is the result of a code exercise with the obj
 bundle
 ```
 
-## Run Program
+## Run Program (from the Command Line)
 ```
 rake run
 ```
