@@ -33,7 +33,7 @@ Examples:
 bundle
 ```
 
-## Run Program (from the Command Line)
+## Run Program
 ```
 rake run
 ```
