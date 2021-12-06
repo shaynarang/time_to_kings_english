@@ -1,7 +1,14 @@
 # Time to King's English
 
 ## The Application
-This Ruby Command Line Application is the result of a code exercise with the objective of converting a colon-separated time to the King's English. For example, 11:11 to Eleven Minutes Past Eleven or 12:30 to Half Past Twelve.
+This Ruby Command Line Application converts colon-separated time strings to the King's English.
+
+- 1:00 = One O' Clock
+- 2:15 = Quarter Past Two
+- 3:30 = Half Past Three
+- 4:45 = Quarter Till Five
+- 11:11 = Eleven Past Eleven
+- 12:53 = Seven Till One
 
 ## Features
 - An interface (via the command line) to enter time values and receive the King's English values.
