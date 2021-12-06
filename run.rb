@@ -5,7 +5,7 @@ Dir['./lib/*.rb'].each { |file| require file }
 puts StringColorer.color('cyan', Message.welcome_prompt)
 
 loop do
-  time = gets.chomp
+  time = gets.strip
   break if time == 'q'
 
   if Converter.time_valid?(time)
