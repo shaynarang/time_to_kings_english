@@ -13,6 +13,9 @@ This Ruby Command Line Application is the result of a code exercise with the obj
 - Rspec
 - Rubocop
 
+## Files of Interest
+- lib/converter.rb contains the conversion logic.
+
 ## Set Up
 - Clone the repository
 - Navigate to the directory
