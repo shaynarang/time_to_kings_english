@@ -25,7 +25,7 @@ class Converter
   def self.time_valid?(time)
     return false if time.empty?
 
-    return false unless time.include?(':')
+    return false if time.count(':') != 1
 
     hour = time.split(':')[0]
     return false unless hour_valid?(hour)

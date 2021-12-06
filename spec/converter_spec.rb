@@ -196,8 +196,6 @@ describe Converter do
   end
 
   context 'invalid time numbers' do
-    let(:converter) { Converter.new('1010') }
-
     it 'validates the hour' do
       expect(Converter.send(:hour_valid?, '1010')).to be false
     end
@@ -212,8 +210,6 @@ describe Converter do
   end
 
   context 'invalid time words' do
-    let(:converter) { Converter.new('foo') }
-
     it 'validates the hour' do
       expect(Converter.send(:hour_valid?, 'foo')).to be false
     end
@@ -224,6 +220,12 @@ describe Converter do
 
     it 'validates the full time' do
       expect(Converter.send(:time_valid?, 'foo')).to be false
+    end
+  end
+
+  context 'invalid multiple colons' do
+    it 'validates the full time' do
+      expect(Converter.send(:time_valid?, '11::11')).to be false
     end
   end
 end
