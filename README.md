@@ -22,7 +22,7 @@ Examples:
 - Rubocop
 
 ## Files of Interest
-- lib/converter.rb contains the conversion logic.
+- lib/converter.rb contains the conversion logic
 
 ## Set Up
 - Clone the repository
