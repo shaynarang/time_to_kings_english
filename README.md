@@ -3,6 +3,7 @@
 ## The Application
 This Ruby Command Line Application converts colon-separated time strings to the King's English.
 
+Examples:
 - 1:00 = One O' Clock
 - 2:15 = Quarter Past Two
 - 3:30 = Half Past Three
